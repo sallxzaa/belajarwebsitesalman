@@ -1,0 +1,696 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ================= FONT AWESOME ============================== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- =================  CSS ====================================== -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Belajar Website</title>
+  </head>
+  <body>
+    <!-- ================= STYLE SWICTHER ============================ -->
+    <input type="radio" name="color" id="color-1" />
+    <input type="radio" name="color" id="color-2" />
+    <input type="radio" name="color" id="color-3" />
+    <input type="radio" name="color" id="color-4" />
+    <input type="radio" name="color" id="color-5" />
+    <input type="radio" name="color" id="color-6" />
+    <input type="radio" name="color" id="color-7" />
+    <input type="radio" name="color" id="color-8" />
+    <input type="radio" name="color" id="color-9" />
+    <input type="radio" name="color" id="color-10" />
+    <input type="checkbox" id="toggler" />
+    <input type="checkbox" id="day-night" />
+
+    <div class="style__switcher">
+      <label for="toggler" class="style__switcher-toggler">
+        <i class="fa-solid fa-gear fa-spin"></i>
+      </label>
+
+      <label for="day-night" class="style__switcher-theme">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+      </label>
+
+      <h3 class="style__switcher-title">Pilihan Warna</h3>
+
+      <div class="style__switcher-colors">
+        <label for="color-1" class="color-1 color"></label>
+        <label for="color-2" class="color-2 color"></label>
+        <label for="color-3" class="color-3 color"></label>
+        <label for="color-4" class="color-4 color"></label>
+        <label for="color-5" class="color-5 color"></label>
+        <label for="color-6" class="color-6 color"></label>
+        <label for="color-7" class="color-7 color"></label>
+        <label for="color-8" class="color-8 color"></label>
+        <label for="color-9" class="color-9 color"></label>
+        <label for="color-10" class="color-10 color"></label>
+      </div>
+    </div>
+
+    <!-- ================= HEADER ==================================== -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">Belajar Website</a>
+
+        <input type="checkbox" id="nav-toggler" />
+
+        <label for="nav-toggler" class="nav__toggle">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">Beranda</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Tentang</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">Biodata</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Layanan</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#works" class="nav__link">Portfolio</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Kontak</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ================= MAIN ====================================== -->
+    <main class="main">
+      <!-- ============ HOME ======================================= -->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__small">Hai!</span>
+            <h1 class="home__title">
+              <span>Selamat</span> Datang!<br />
+              di <span>Belajar Website</span>
+            </h1>
+
+            <p class="home__description">
+              Ingin menjadi ahli dalam membangun dan mengelola website? Anda berada di tempat yang tepat! Kami menyediakan panduan lengkap untuk semua tingkatan, mulai dari pemula hingga mahir. Dengan metode belajar interaktif, Anda akan memahami HTML, CSS, JavaScript, hingga pengembangan Full-Stack dengan framework modern.
+            </p>
+
+            <div class="home__btns">
+              <a href="#contact" class="btn">Mulai Sekarang!</a>
+              <a href="#portfolio" class="btn btn--transparent">Selengkapnya</a>
+            </div>
+          </div>
+
+          <div class="home__img-wrapper">
+            <img src="assets/img/Profile.png" alt="" class="home__img" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ====================================== -->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__img-wrapper">
+            <img src="assets/img/About.jpg" alt="" class="about__img" />
+            <img src="assets/img/About.jpgg" alt="" class="about__img" />
+            <img src="assets/img/About.jpg" alt="" class="about__img" />
+            <img src="assets/img/About.jpg" alt="" class="about__img" />
+          </div>
+
+          <div class="about__content">
+            <h2 class="section__title" data-title="Tentang Belajar Website!">Belajar website membantu anda memahami desain, pengembangan, dan optimasi web.</h2>
+
+            <p class="about__description">Kenapa Memilih Kami?</p>
+
+            <ul class="about__data grid">
+              <li class="data__item">
+                <h3 class="data__title">Materi:</h3>
+                <span class="data__description">Dari dasar hingga mahir</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Instruktur:</h3>
+                <span class="data__description">berpengalaman</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Proyek Nyata:</h3>
+                <span class="data__description">Langsung praktek</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Kurikulum:</h3>
+                <span class="data__description">Terkini</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Fleksibel:</h3>
+                <span class="data__description about__link">Belajar online/offline</span>
+              </li>
+
+              <li class="data__item">
+                <h3 class="data__title">Komunitas:</h3>
+                <span class="data__description about__link">Kolaborasi aktif</span>
+              </li>
+            </ul>
+
+            <div class="about__bottom">
+              <a href="" class="btn">Beranda!</a>
+
+              <div class="about__social--links">
+                <a href="" class="about__social--link">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="" class="about__social--link">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="" class="about__social--link">
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+
+                <a href="" class="about__social--link">
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ QUALIFICATION ====================================== -->
+      <section class="qualification section" id="qualification">
+        <h2 class="section__title title-center" data-title="Apa saja Visi dan Misi Kami?">Visi & Misi Kami</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__group">
+            <h3 class="resume__heading">Visi</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Visi 1</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">"Pengembangan Website"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Visi ini mengacu pada tujuan untuk menciptakan sebuah tempat belajar yang inovatif dan mudah diakses bagi siapa saja yang ingin mengembangkan keterampilan dalam pembuatan dan pengelolaan website. Ini bertujuan untuk memfasilitasi pembelajaran yang efektif.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Visi 2</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">"Teknologi Web"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Visi ini berfokus pada pemberdayaan individu untuk memanfaatkan teknologi web dalam kehidupan profesional mereka. Hal ini berkaitan dengan penguasaan berbagai bahasa pemrograman dan alat pengembangan yang digunakan dalam pembuatan website modern.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Visi 3</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title"> "Kolaboratif"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Visi ini mengutamakan penciptaan komunitas yang mendukung dan terbuka bagi semua orang dari berbagai latar belakang, sehingga dapat saling berbagi ilmu, pengalaman, dan mempercepat proses pembelajaran dalam pembuatan website secara bersama-sama.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__group">
+            <h3 class="resume__heading">Misi</h3>
+
+            <div class="resume__items">
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Misi 1</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">"Akses Pembelajaran"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Misi ini bertujuan untuk menyediakan kursus web yang dapat diakses kapan saja dan di mana saja dengan materi yang disampaikan secara interaktif. Penggunaan alat dan teknologi yang memudahkan peserta didik untuk belajar dengan cara yang menyenangkan dan efektif.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Misi 2</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">"Kurikulum"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Misi ini menekankan pentingnya pembaruan konten pembelajaran yang sesuai dengan perkembangan teknologi dan tren industri terkini. bertujuan untuk memastikan peserta didik selalu siap menghadapi tantangan di dunia kerja yang membutuhkan keterampilan web yang relevan dan mutakhir.
+                  </p>
+                </div>
+              </div>
+
+              <div class="resume__item">
+                <div class="resume__header">
+                  <h3 class="resume__subtitle">Misi 3</h3>
+                  <span class="resume__icon">+</span>
+                </div>
+
+                <div class="resume__content">
+                  <div class="resume__date-title">
+                    <h3 class="resume__title">"Kemampuan Praktis"</h3>
+                    <span class="resume__date">15/11/2024</span>
+                  </div>
+
+                  <p class="resume__description">
+                    Misi ini bertujuan untuk memberikan pengalaman langsung dalam pengembangan website, sehingga peserta didik dapat membuat website yang tidak hanya fungsional tetapi juga ramah pengguna. Fokus pada aspek User Experience (UX) menjadi bagian penting dalam pengajarannya.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SERVICES ====================================== -->
+      <section class="services section" id="services">
+        <h2 class="section__title title-center" data-title="Services">Apa yang saya lakukan untuk Anda?</h2>
+
+        <div class="services__container container grid">
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Dasar Web Development</h3>
+            <p class="services__description">Belajar HTML, CSS, dan JavaScript untuk membuat website statis.</p>
+            <span class="services__no">01</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+
+            <h3 class="services__title">Desain Responsif dan UI/UX</h3>
+            <p class="services__description">Membuat website responsif dengan fokus pada pengalaman pengguna.</p>
+            <span class="services__no">02</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+
+            <h3 class="services__title">Front-End Development</h3>
+            <p class="services__description">Menguasai framework seperti React,untuk aplikasi web interaktif.</p>
+
+            <span class="services__no">03</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-pen-to-square services__icon"></i>
+
+            <h3 class="services__title">Back-End & Database</h3>
+            <p class="services__description">Belajar pengembangan server-side dengan Node.js, PHP, dan database MySQL/MongoDB.</p>
+
+            <span class="services__no">04</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-laptop services__icon"></i>
+
+            <h3 class="services__title">SEO & Pengoptimalan</h3>
+            <p class="services__description">Teknik SEO untuk meningkatkan peringkat website di mesin pencari.</p>
+            <span class="services__no">05</span>
+          </div>
+
+          <div class="services__item">
+            <i class="fa-solid fa-chart-area services__icon"></i>
+
+            <h3 class="services__title">Web Hosting & Deployment</h3>
+            <p class="services__description">Cara meng-host dan mendistribusikan website secara online dengan platform seperti Netlify atau Heroku.</p>
+
+            <span class="services__no">06</span>
+          </div>
+        </div>
+      </section>
+      
+      <!-- services -->
+    <!-- <div class="services"> -->
+      <!--text-->
+      <!-- <div class="services-text ">
+          <p>Services</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      </div>
+       
+      <div class="box-container"> -->
+      <!--- 1 --->
+          <!-- <div class="box-1">
+              <span>1</span>
+              <p class="heading">Technical Writing</p>
+              <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <button>Read More</button>
+          </div> -->
+      <!--- 2 --->
+          <!-- <div class="box-2">
+              <span>2</span>
+              <p class="heading">Web Design</p>
+              <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <button>Read More</button>
+          </div> -->
+      <!--- 3 --->
+          <!-- <div class="box-3">
+              <span>3</span>
+              <p class="heading">Web Development</p>
+              <p class="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+              <button>Read More</button>
+          </div>
+      </div>
+  </div> -->
+   
+
+      <!-- ============ SKILLS ====================================== -->
+      <section class="skills section">
+        <h2 class="section__title title-center" data-title="My Skill!">Bakat Kami!</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">PHP</h3>
+              <span class="skills_no">80 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">JavaScript</h3>
+              <span class="skills_no">85 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">WordPress</h3>
+              <span class="skills_no">90 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 90%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">Python</h3>
+              <span class="skills_no">85 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">Design UI/UX</h3>
+              <span class="skills_no">80 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 80%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__item">
+            <div class="skills__titles">
+              <h3 class="skills_name">Web Developer</h3>
+              <span class="skills_no">85 %</span>
+            </div>
+
+            <p class="skills__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis vel ut ea nam doloremque voluptatem.</p>
+
+            <div class="skills__bar">
+              <div class="skills__percentage" style="width: 85%">
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PORTFOLIO ====================================== -->
+      <section class="works section" id="works">
+        <h2 class="section__title title-center" data-title="My Portfolio">Karya- karya Kami!</h2>
+
+        <div class="work__container container grid">
+          <div class="work__card">
+            <img src="assets/img/project-img-1.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-2.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Android App</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-3.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">PhotoShop</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-4.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">UI/UX Design</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-5.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+
+          <div class="work__card">
+            <img src="assets/img/project-img-6.jpg" alt="" class="work__img" />
+
+            <div class="work__details">
+              <h3 class="work__title">Web Design</h3>
+              <span class="work__description">This is a short description</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TESTIMONIALS ====================================== -->
+      <section class="testimonials section">
+        <h2 class="section__title title-center" data-title="Testimoni">Kolom Komentar!</h2>
+
+        <div class="testimonials__container container grid">
+          <div class="testimonials__item">
+            <p class="testimonials__description">Pengunjung Website Menyukai Warna yang Netral Untuk Website</p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/client1.jpeg" alt="" class="testimonials__img" />
+
+              <div>
+                <h3 class="testimonials__name">Sarah Zahra</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonials__item">
+            <p class="testimonials__description">Pakai Font yang Keren Biar Website Keren</p>
+
+            <div class="testimonials__data">
+              <img src="assets/img/client2.jpeg" alt="" class="testimonials__img" />
+
+              <div>
+                <h3 class="testimonials__name">Salman Zakaria</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ====================================== -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title title-center" data-title="Contact Me At!">Kontak Kami!</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__details">
+            <div class="contact__item">
+              <i class="fa-solid fa-phone contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">No.Telepon:</h3>
+                <span class="contact__data">+ 62 819-4343-1484.</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-envelope contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Gmail:</h3>
+                <span class="contact__data">salmangmacademy@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact__item">
+              <i class="fa-solid fa-location-dot contact__icon"></i>
+
+              <div>
+                <h3 class="contact__title">Alamat:</h3>
+                <span class="contact__data">JL. Candi Panggung, Kota Malang</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form">
+            <div class="form__group">
+              <div class="form__input">
+                <input type="text" placeholder="Nama" class="input__control" />
+              </div>
+
+              <div class="form__input">
+                <input type="email" placeholder="Email" class="input__control" />
+              </div>
+            </div>
+
+            <div class="form__input">
+              <input type="text" placeholder="Nomer Telepon" class="input__control" />
+            </div>
+
+            <div class="form__input">
+              <textarea name="" id="" placeholder="Pesan" cols="30" rows="10" class="input__control textarea"></textarea>
+            </div>
+
+            <button class="btn contact__btn">Kirim</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ====================================== -->
+    <section class="footer">
+      <div class="footer__container container">
+        <p class="footer__copyright">&copy; 2024 M.Salman Zakaria. All Rights Reserved</p>
+
+        <div class="footer__social--links">
+          <a href="" class="footer__social--link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="" class="footer__social--link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a href="" class="footer__social--link">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a href="" class="footer__social--link">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
